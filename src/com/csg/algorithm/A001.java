@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 整型数组里找出符合要求的元素，满足前面的元素比该元素小，后面的元素比该元素大
- * @author Administrator
+ * @author CSG
  *
  */
 public class A001 {
