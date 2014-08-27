@@ -1,4 +1,5 @@
 package com.csg.algorithm;
+<<<<<<< HEAD
 import java.util.Arrays;
 import java.util.Scanner;
 public class A003 {
@@ -40,4 +41,11 @@ public class A003 {
 		return originalA*originalB/a;
 	}
 
+=======
+
+public class A003 {
+	public static void main(String[] args) {
+		
+	}
+>>>>>>> origin/master
 }
