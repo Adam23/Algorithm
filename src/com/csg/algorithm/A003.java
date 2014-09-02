@@ -1,6 +1,5 @@
 package com.csg.algorithm;
-<<<<<<< HEAD
-import java.util.Arrays;
+
 import java.util.Scanner;
 public class A003 {
 
@@ -12,10 +11,9 @@ public class A003 {
         System.out.println("请输入第二个数：");
         Scanner s2 = new Scanner(System.in);
         int b = s2.nextInt();
-        System.out.println(a+"和"+b+"的最小公倍数是："+caculate(a,b));
-        System.out.println(a+"和"+b+"的最大公约数是："+a*b/caculate(a,b));
+        System.out.println(a+"和"+b+"的最小公倍数是："+a*b/caculate(a,b) );
+        System.out.println(a+"和"+b+"的最大公约数是："+caculate(a,b) );
 	}
-
 
 	/**
 	 *  
@@ -25,12 +23,11 @@ public class A003 {
 	最小公倍数和最大公约数之间的关系：最大公约数 * 最小公倍数 = a * b 
 	 * @param a
 	 * @param b
-	 * @return  最小公倍数
+	 * @return  最大公约数
 	 */
 	
 	private static int caculate(int a, int b) {
-		int originalA = a;
-		int originalB = b;
+
 		while(a != b){
 			if(a > b){
 				a = a - b;
@@ -38,14 +35,7 @@ public class A003 {
 				b = b - a;
 			}
 		}
-		return originalA*originalB/a;
+		return a;
 	}
 
-=======
-
-public class A003 {
-	public static void main(String[] args) {
-		
-	}
->>>>>>> origin/master
 }
